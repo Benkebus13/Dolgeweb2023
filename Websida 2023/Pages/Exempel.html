@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exempel</title>
+    <link rel="stylesheet" href="../Css/Dolge.css">
+    <link rel="stylesheet" href="../Css/Accordion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:wght@400;700;900&family=Rubik+Dirt&family=Water+Brush&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+
+    
+
+</head>
+
+<body>
+<header class="header container">
+    
+    <nav class="navbar">
+        <div class="nav-logo">Dolge <span>IT & Support</span></div>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="Dolge.html" class="nav-link">Dolge</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link nav-link--active">Exempel</a>
+            </li>
+            <li class="nav-item">
+                <a href="Layouter.html" class="nav-link">Layouter</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Kontakt</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Länkar</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+   
+</header>
+
+<div class="wrapper main container">
+  <h1 class="Title-center">Galleri</h1>
+  <div class="info-text">
+    Här följer ett galleri som är gjort responsivt för att passa både i mobilen och på webben (Fungerar inte i Firefox ännu). Den bild du klickar på expanderar och det visas en kort infotext. 
+    Bilderna är tagna av Cajsa Dolge.
+  </div>
+
+  <div class="accordion">
+
+      <div class="accordion-panel">
+
+        <h2 id="panel1-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel1-content"
+          aria-expanded="true">
+
+            <span class="accordion-title" id="panel1-title">Droppar</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#drops"></use>
+            </svg>
+          </button>
+        </h2>
+
+          <div class="accordion-content" 
+                id="panel-content"
+                aria-labelledby="panel1-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>En fin bild som visar droppar på ett tågfönster som jag tycker mycket om. 
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/Droppar_pa_fonster.jpg" 
+                      alt="Rengndroppar på ett tågfönster i mörkret">
+
+              </div>
+
+      </div>
+
+      <div class="accordion-panel">
+
+        <h2 id="panel2-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel2-content"
+          aria-expanded="false"
+          >
+            <span class="accordion-title" id="panel2-title">Tågstation</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#trainstation"></use>
+            </svg>
+          </button>
+        </h2>
+  
+          <div class="accordion-content" 
+                id="panel2-content"
+                aria-labelledby="panel2-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>Nu är vi på väg till Lerumsstation.
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/Lerumsstation.jpg" 
+                      alt="På väg mot tågstationen">
+  
+              </div>
+  
+      </div>
+
+      <div class="accordion-panel">
+
+        <h2 id="panel3-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel3-content"
+          aria-expanded="false"
+          >
+            <span class="accordion-title" id="panel3-title">Svart ros</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#rose"></use>
+            </svg>
+          </button>
+        </h2>
+  
+          <div class="accordion-content" 
+                id="panel3-content"
+                aria-labelledby="panel1-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>En svart ros på ett podie.
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/Svart_ros.jpg" 
+                      alt="Svart ros på ett podium">
+  
+              </div>
+  
+      </div>
+
+      <div class="accordion-panel">
+
+        <h2 id="panel4-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel4-content"
+          aria-expanded="false"
+          >
+            <span class="accordion-title" id="panel4-title">Solnedgång</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#sunset"></use>
+            </svg>
+          </button>
+        </h2>
+  
+          <div class="accordion-content" 
+                id="panel4-content"
+                aria-labelledby="panel4-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>Solnedgång över sjön Nären.
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/Solnedgang_naren.jpg" 
+                      alt="Solen går ner över sjön Nären">
+  
+              </div>
+  
+      </div>
+
+      <div class="accordion-panel">
+
+        <h2 id="panel5-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel5-content"
+          aria-expanded="false"
+          >
+            <span class="accordion-title" id="panel5-title">Timglas</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#timglas"></use>
+            </svg>
+          </button>
+        </h2>
+  
+          <div class="accordion-content" 
+                id="panel5-content"
+                aria-labelledby="panel5-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>Ett timglas i närbild.
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/timglas.jpg" 
+                      alt="Timmglas på nära håll">
+  
+              </div>
+  
+      </div>
+
+      <div class="accordion-panel">
+
+        <h2 id="panel6-heading">
+          <button
+          class="accordion-trigger"
+          aria-controls="panel6-content"
+          aria-expanded="false"
+          >
+            <span class="accordion-title" id="panel6-title">Spiraltrappa</span>
+            <svg aria-hidden="true" class="accordion-icon">
+              <use xlink:href="#stair"></use>
+            </svg>
+          </button>
+        </h2>
+  
+          <div class="accordion-content" 
+                id="panel6-content"
+                aria-labelledby="panel6-heading"
+                aria-hidden="false"
+                role="region"
+                >
+                <p>Nu är vi på väg nerför en spiraltrappa
+                </p>
+                <img  class="accordion-image"
+                      src="../img/Cajsa/Trappa.jpg" 
+                      alt="På väg ner för en Spiraltrappa">
+  
+              </div>
+  
+      </div>
+
+
+</div>
+    
+  
+
+</div>
+
+
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="trainstation">
+    <g fill=""">
+      <path d="M13 19h-2c-.55 0-1-.45-1-1s.45-1 1-1h2c.55 0 1 .45 1 1c0 .56-.44 1-1 1Zm5 0h-2c-.55 0-1-.45-1-1s.45-1 1-1h2c.55 0 1 .45 1 1c0 .56-.44 1-1 1Zm.5-11h-8c-.28 0-.5-.22-.5-.5s.22-.5.5-.5h8c.28 0 .5.22.5.5s-.22.5-.5.5Z"></path>
+      <path d="M8 4c0-.551.44-1 .98-1h11.04c.54 0 .98.449.98 1h.061C22.131 4 23 4.85 23 5.91v13.08c0 1.777-1.165 3.278-2.784 3.807l.848 1.266c.772 1.152 1.578 2.354 1.732 2.602c.338.539.318.934.068 1.261c-.25.327-.636.347-.954.347H7.078c-.17.001-.751.006-1.018-.453c-.246-.425-.02-.797.162-1.098l.07-.115c.064-.113.578-.844 1.185-1.706c.482-.685 1.022-1.453 1.443-2.062a4.377 4.377 0 0 1-.063-.019C7.201 22.314 6 20.794 6 18.99V5.91C6 4.85 6.86 4 7.929 4H8Zm0 12v2.55C8 19.9 9.1 21 10.45 21h8.1C19.9 21 21 19.9 21 18.55V16H8Zm0-1h13v-5H8v5Zm13-6.55C21 7.1 19.9 6 18.55 6h-8.1C9.1 6 8 7.1 8 8.45v.536h13V8.45ZM9.309 24.996h10.369a1.662 1.662 0 0 1-.053-.097a4.22 4.22 0 0 0-.237-.41c-.183-.269-.478-.5-.873-.5h-8.016c-.453 0-.808.376-.885.5c-.062.101-.244.404-.305.507Zm-1.303 1.99h13.008c-.07-.108-.368-.557-.445-.672c-.14-.21-.453-.328-.665-.328H9.356c-.453 0-.964.423-1.07.596a6.247 6.247 0 0 1-.28.405Z"></path>
+      <path d="M25 6.98c0-.54.44-.98.98-.98h3.04c.54 0 .98.44.98.98v5.04c0 .54-.44.98-.98.98H28v7.004L30 20v9l-6.58-6.55c-.9-.9-.26-2.44 1.01-2.44l2.57-.005V13h-1.02c-.54 0-.98-.44-.98-.98V6.98ZM29 9h-3v3h3V9Zm-4.57 12.01a.43.43 0 0 0-.303.732L29 26.593v-5.591l-4.57.008Z"></path>
+    </g>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="drops">
+    <path fill="" d="M9 7.75C9 5 6.42 3.24 6.31 3.17a1 1 0 0 0-1.12 0C5.08 3.25 2.5 5 2.5 7.75a3.25 3.25 0 0 0 6.5 0ZM5.75 9A1.25 1.25 0 0 1 4.5 7.75A3.66 3.66 0 0 1 5.75 5.3A3.61 3.61 0 0 1 7 7.75A1.25 1.25 0 0 1 5.75 9Zm6.06 1.17a1 1 0 0 0-1.12 0c-.17.12-4.19 2.9-4.19 7.08a4.75 4.75 0 0 0 9.5 0c0-4.25-4-6.97-4.19-7.08ZM11.25 20a2.75 2.75 0 0 1-2.75-2.75c0-2.31 1.81-4.17 2.76-5c.94.79 2.74 2.63 2.74 5A2.75 2.75 0 0 1 11.25 20Zm6.81-17.83a1 1 0 0 0-1.12 0c-.14.1-3.44 2.38-3.44 5.83a4 4 0 0 0 8 0c0-3.49-3.3-5.74-3.44-5.83ZM17.5 10a2 2 0 0 1-2-2a5.44 5.44 0 0 1 2-3.72a5.39 5.39 0 0 1 2 3.72a2 2 0 0 1-2 2Z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="rose">
+    <path d="M260.6 214.8c23.8-40.9 48-71.6 91.4-96.4 8.3-4.8 21.2-8 22.8-8.9C290.7 83.7 256 32 256 32s-34.7 51.7-120.5 76.5c5.8 3.4 16.5 6.5 30.7 13.7 34.5 17.4 62.5 51.3 94.4 92.6z" fill=""></path>
+    <path d="M246.3 253.4C186.7 161.2 131.4 126.8 48 126.8c54.2 78.6 52 174.6 52 215.4 0 76.1 69.8 137.8 156 137.8 57.6 0 107.9-27.6 135-68.7-35.5-27.6-85.1-65.7-144.7-157.9z" fill=""></path>
+    <path d="M464 126.8s-55.2-2.3-85.2 15.4c-43 25.5-74.4 61.3-95.4 103.2 38.8 52 73 87.9 95.4 109.4 10.7 10.2 19.8 18.2 27.5 24.5 3.7-11.8 5.8-24.3 5.8-37.2-.1-40.8-17.4-114.1 51.9-215.3z" fill=""></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="stair">
+    <path fill="" stroke="transparent" d="M14 23.5H8.5v-.008a7.5 7.5 0 0 1 .988-3.721l.012-.021v-.25h-5v-.008a7.5 7.5 0 0 1 .988-3.721l.012-.021v-.25H0M21.5 14V6.5h-1.057a3 3 0 0 0-2.938 2.392l-.998 4.823a.347.347 0 0 0 .185.38l4.36 2.181A.809.809 0 0 1 21.5 17c0 1.5 0 3.5.75 5c0 0 .75 1.5 1.75 1.5m-4.5-6c-.21 0-.466.133-.737.344C16.958 19.24 16.5 21.718 16.5 24m4.85-19.5s-1.6-1-1.6-2.25a1.747 1.747 0 1 1 3.496 0c0 1.25-1.596 2.25-1.596 2.25h-.3Z"></path>
+  </symbol>
+
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="sunset">
+    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 13h1m16 0h1M5.6 6.6l.7.7m12.1-.7l-.7.7M8 13a4 4 0 1 1 8 0M3 17h18M7 20h5m4 0h1M12 5V4"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="timglas">
+    <path fill="" d="M15.566 11.021A7.016 7.016 0 0 0 19 5V4h1V2H4v2h1v1a7.016 7.016 0 0 0 3.434 6.021c.354.208.566.545.566.9v.158c0 .354-.212.69-.566.9A7.016 7.016 0 0 0 5 19v1H4v2h16v-2h-1v-1a7.014 7.014 0 0 0-3.433-6.02c-.355-.21-.567-.547-.567-.901v-.158c0-.355.212-.692.566-.9zM17 19v1H7v-1a5.01 5.01 0 0 1 2.45-4.299A3.111 3.111 0 0 0 10.834 13h2.332c.23.691.704 1.3 1.385 1.702A5.008 5.008 0 0 1 17 19z"></path>
+  </symbol>
+</svg>
+
+
+
+
+
+<footer class="container">
+    Dolge IT & Support &#169; 2023
+</footer>
+
+
+
+
+</body>
+
+    <script src="../Js/accordion.js"></script>
+    <script src="../Js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+
+
+     
+</html>

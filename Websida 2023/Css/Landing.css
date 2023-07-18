@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Heebo", sans-serif;
+}
+
+.landing {
+    min-height: 100vh;
+    background: url(../img/Dolgeit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0rem 5rem;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+
+.intro-link {
+    color: hsl(55, 88%, 53%, 0.976);
+    text-decoration: none;
+}
+
+#logo {
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+    color:  rgba(202, 104, 23, 0.781);
+    font-size: 2rem;
+}
+
+.big-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    font-family: "Lobster", sans-serif;
+    font-size: 5rem;
+    color: rgba(202, 104, 23, 0.781);
+}
+
+.intro {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: rgba(202, 104, 23, 0.781);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text {
+    color: rgb(233, 233, 233);
+    font-family: "Heebo", sans-serif;
+    font-size: 3rem;
+}
+
+.hide {
+    background: black;
+    overflow: hidden;
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
